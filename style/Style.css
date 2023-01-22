@@ -1,6 +1,6 @@
 *{
-  margin : 0 ;
-  padding:0;
+  margin : 0px ;
+  padding:0px;
   box-sizing: border-box;
 }
 .container{
@@ -258,4 +258,83 @@ footer{
   margin-bottom:7px;
   font-size: 17px;
   color:#9e5858
+}
+@media screen and (max-width:480px) {
+  body{
+    width: 100%;
+    height: 100vh;
+  }
+  .logo{
+    font-size: 14px;
+  }
+  nav{
+    width:100%;
+    padding:5px;
+  }
+  .subscribe{
+    font-size:8px;
+    padding:5px 3px;
+  }
+   nav ul {
+    /* display: flex; */
+    padding:5px  0.1em;
+    justify-content: space-between;
+   }
+   nav ul li {
+    padding:0;
+   }
+   .input-2{
+    padding:9px 10px;
+    margin-left:3px;
+   }
+   nav ul li a{
+    font-size: 12px;
+   }
+  .saiful{
+    font-size: 20px;
+    padding: 9px;
+  }
+  .input-1{
+    margin-left: -7px;
+  }
+  .input-2{
+    display: block;
+    margin-top: 8px;
+  }
+  .developer{
+    font-size: 20px;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .content-1{
+    width:100%;
+    padding:0px 30px;
+    padding-top:40px
+  }
+  .about{
+    padding: 0px;
+  }
+  .about img{
+    object-fit: cover;
+  }
+  .about-me-text{
+    font-size: 28px;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    width:auto;
+    height:auto;
+  }
+ 
+  .contact p{
+    font-size: 16px;
+  }
 }
